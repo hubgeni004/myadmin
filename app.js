@@ -374,14 +374,14 @@ function showAlert(message, type = 'info') {
 }
 
 /**
- * Format number as currency
+ * Format number as currency (Rupiah Indonesia)
  */
 function formatCurrency(amount) {
-  return new Intl.NumberFormat('en-US', {
+  return new Intl.NumberFormat('id-ID', {
     style: 'currency',
-    currency: 'USD',
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2
+    currency: 'IDR',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
   }).format(amount || 0);
 }
 
