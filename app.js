@@ -10,7 +10,7 @@
 // ===========================
 // Replace this with your Google Apps Script Web App URL
 // Deploy Code.gs as Web App and copy the deployment URL here
-const GAS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbyVRrMiuMZCsU12SFb0V6Cxy3mnKnNY1V0mV7CY3jrjmPbCT9DDWmPVj0B_a82NvnPy/exec'; // UPDATE THIS
+const GAS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzaT5bnSQbe5AvMXOShJKY7ok8uae51A5iVXa1lQd1Tzd6LYV1Tgas_C6RNeayDMxBa/exec'; // UPDATE THIS
 
 // Category mappings based on transaction type
 const CATEGORIES = {
